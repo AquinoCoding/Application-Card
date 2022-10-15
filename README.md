@@ -1,4 +1,4 @@
-# Application-Docker-Flask-uWSGI
+# Application Flask
 
 Docker container with uWSGI for Flask apps in Python 3
 
