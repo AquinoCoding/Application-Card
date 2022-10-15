@@ -72,7 +72,7 @@ pip install -r requirements.txt
 Agora inicialize o app com o seguinte comando.
 
 ```
-flask run
+python3 app/wsgi.py
 ```
 
 O projeto ficará disponível na porta 5000, certifique-se de que a porta não está sendo utilizada.
