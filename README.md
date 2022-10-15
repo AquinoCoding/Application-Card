@@ -1,6 +1,5 @@
 # Application Flask
 
-Docker container with uWSGI for Flask apps in Python 3
 
 ## Description
 
