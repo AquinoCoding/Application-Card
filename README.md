@@ -22,7 +22,7 @@ Ações da API
   - Filtrar por id a tag
 
 
-## QuickStart
+## QuickStart Docker
 
 Para iniciar o build execute o seguinte comando dentro da pasta application
 
@@ -42,3 +42,37 @@ Ficará disponivel na Rota seguinte
 ```
 curl -v "http://localhost:5000/"
 ``` 
+
+## QuickStart Local
+
+Para rodar o projeto é necessário criar o ambiente virtual com o seguinte comando
+
+```
+python3 -m venv env
+```
+
+Entre no ambiente virtual no meu caso eu acesso com source
+
+```
+env/bin/activate
+```
+
+Para outras OS pode ser de outra maneira como 
+
+```
+env/Scripts/Activate
+```
+
+Agora vamos instalar os requirements. No terminal acesse o diretorio em que o arquivo requirements.txt está e execute o seguinte comando 
+
+```
+pip install -r requirements.txt
+```
+
+Agora inicialize o app com o seguinte comando.
+
+```
+flask run
+```
+
+O projeto ficará disponível na porta 5000, certifique-se de que a porta não está sendo utilizada.
